@@ -26,15 +26,24 @@ export const Contacts = () => {
         <SocialNetworkLink
           href="https://www.linkedin.com/in/bohdan-orlovskiy-6b503a240"
           lang="en"
+          rel="noopener noreferrer"
         >
           <ImLinkedin size={26} />
         </SocialNetworkLink>
 
-        <SocialNetworkLink href="https://github.com/Bohdan100" lang="en">
+        <SocialNetworkLink
+          href="https://github.com/Bohdan100"
+          lang="en"
+          rel="noopener noreferrer"
+        >
           <ImGithub size={26} />
         </SocialNetworkLink>
 
-        <SocialNetworkLink href="https://t.me/Bogdan_info" lang="en">
+        <SocialNetworkLink
+          href="https://t.me/Bogdan_info"
+          lang="en"
+          rel="noopener noreferrer"
+        >
           <SiTelegram size={28} />
         </SocialNetworkLink>
       </SocialNetworkList>
