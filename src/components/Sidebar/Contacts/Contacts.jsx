@@ -34,10 +34,7 @@ export const Contacts = () => {
           <ImGithub size={26} />
         </SocialNetworkLink>
 
-        <SocialNetworkLink
-          href="https://web.telegram.org/k/t.me/@Bogdan_info"
-          lang="en"
-        >
+        <SocialNetworkLink href="https://t.me/Bogdan_info" lang="en">
           <SiTelegram size={28} />
         </SocialNetworkLink>
       </SocialNetworkList>
