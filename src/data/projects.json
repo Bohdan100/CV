@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Phone Book (link)",
+    "href": "https://bohdan100.github.io/goit-react-hw-08-phonebook",
+    "description": "Project with Redux Toolkit, React Router, authorization"
+  },
+  {
+    "id": "2",
+    "name": "Movies-finder (link)",
+    "href": "https://bohdan100.github.io/goit-react-hw-05-movies/",
+    "description": "Project with React, React Router, http-requests"
+  },
+  {
+    "id": "3",
+    "name": "Contacts form (link)",
+    "href": "https://bohdan100.github.io/goit-react-hw-07-RTK-Query/",
+    "description": "Project with  with RTK-Query, React, http-requests"
+  },
+  {
+    "id": "4",
+    "name": "Image-finder (link)",
+    "href": "https://bohdan100.github.io/goit-react-hw-04-image-finder/",
+    "description": "Project with  with RTK-Query, React, http-requests"
+  },
+  {
+    "id": "5",
+    "name": "Filmoteka",
+    "href": "https://irenecreadora.github.io/filmoteka-dream-team/",
+    "description": "Teamwork project with JavaScript (role: developer)"
+  },
+  {
+    "id": "6",
+    "name": "IceCream",
+    "href": "https://lisitsyna-anna.github.io/dream-team-project/",
+    "description": "Teamwork project with HTML5, CSS3 (role: developer)"
+  },
+  {
+    "id": "7",
+    "name": "WebStudio",
+    "href": "https://bohdan100.github.io/goit-markup-hw-08",
+    "description": "Adaptive layout page with HTML5, CSS3"
+  }
+]
