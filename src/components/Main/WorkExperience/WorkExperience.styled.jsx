@@ -5,11 +5,19 @@ export const WorkWrapper = styled.div`
 `;
 
 export const WorkTitle = styled.h3`
+  @media (max-width: 500px) {
+    padding-left: 20px;
+  }
+
   color: ${p => p.theme.colors.black};
   font-size: 26px;
 `;
 
 export const WorkPosition = styled.h4`
+  @media (max-width: 500px) {
+    padding-left: 20px;
+  }
+
   font-weight: ${p => p.theme.fontWeights.bold};
   font-size: 18px;
   line-height: ${p => p.theme.lineHeights.heading};
@@ -18,6 +26,10 @@ export const WorkPosition = styled.h4`
 `;
 
 export const WorkPeriod = styled.p`
+  @media (max-width: 500px) {
+    padding-left: 20px;
+  }
+
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 13px;
   line-height: ${p => p.theme.lineHeights.heading};
@@ -33,6 +45,10 @@ export const Line = styled.span`
 `;
 
 export const WorkList = styled.ul`
+  @media (max-width: 500px) {
+    padding-left: 20px;
+  }
+
   padding: ${p => p.theme.space[0]};
   margin-left: 15px;
 `;

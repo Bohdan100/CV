@@ -17,7 +17,7 @@ export const Projects = () => {
       <ProjectsList>
         {projects.map(({ id, name, href, description }) => (
           <ProjectsItem key={id}>
-            {id}.<ProjectLink href={href}>{name}</ProjectLink>
+            <ProjectLink href={href}>{name}</ProjectLink>
             <ProjectBracket>[</ProjectBracket>
             <ProjectDescription>{description} </ProjectDescription>
             <ProjectBracket>]</ProjectBracket>
