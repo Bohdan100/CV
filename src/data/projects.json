@@ -25,19 +25,19 @@
   },
   {
     "id": "5",
-    "name": "Filmoteka",
+    "name": "Filmoteka (link)",
     "href": "https://irenecreadora.github.io/filmoteka-dream-team/",
     "description": "Teamwork project with JavaScript (role: developer)"
   },
   {
     "id": "6",
-    "name": "IceCream",
+    "name": "IceCream (link)",
     "href": "https://lisitsyna-anna.github.io/dream-team-project/",
     "description": "Teamwork project with HTML5, CSS3 (role: developer)"
   },
   {
     "id": "7",
-    "name": "WebStudio",
+    "name": "WebStudio (link)",
     "href": "https://bohdan100.github.io/goit-markup-hw-08",
     "description": "Adaptive layout page with HTML5, CSS3"
   }
