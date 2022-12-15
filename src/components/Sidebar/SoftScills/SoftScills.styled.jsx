@@ -6,8 +6,8 @@ export const SoftScillsWrapper = styled.aside`
 `;
 
 export const SoftScillsTitle = styled.h3`
-  color: #ffffff;
-  font-weight: 400;
+  color: ${p => p.theme.colors.white};
+  font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 24px;
   line-height: 27px;
   margin-top: 0;
@@ -15,18 +15,19 @@ export const SoftScillsTitle = styled.h3`
 `;
 
 export const SoftScillsList = styled.ul`
-  color: #ffffff;
+  color: ${p => p.theme.colors.white};
   padding: 0;
   margin-left: 17px;
+  list-style: inside;
 `;
 
 export const SoftScillsItem = styled.li`
-  color: #fb6d3a;
+  color: ${p => p.theme.colors.orange};
 `;
 
 export const SoftScillsText = styled.span`
-  color: #ffffff;
-  font-weight: 400;
+  color: ${p => p.theme.colors.white};
+  font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 16px;
   line-height: 24px;
 `;

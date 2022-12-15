@@ -9,7 +9,7 @@ import {
 import skills from 'data/skills';
 
 export const SoftScills = () => {
-  const softSkills = skills.techSkills;
+  const softSkills = skills.softSkills;
   return (
     <SoftScillsWrapper>
       <SoftScillsTitle>SoftScills</SoftScillsTitle>

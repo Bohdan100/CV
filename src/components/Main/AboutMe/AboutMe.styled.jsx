@@ -10,6 +10,10 @@ export const UserPosition = styled.h2`
   line-height: 1.17;
   color: ${p => p.theme.colors.orange};
   margin-bottom: 20px;
+
+  @media (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 export const UserName = styled.h1`
@@ -18,12 +22,22 @@ export const UserName = styled.h1`
   line-height: 1.17;
   color: ${p => p.theme.colors.black};
   margin-bottom: 25px;
+
+  @media (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 export const UserDescription = styled.p`
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 16px;
-  line-height: 1.05;
+  line-height: ${p => p.theme.lineHeights.heading};
   color: ${p => p.theme.colors.greySecond};
-  width: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media (min-width: 500px) {
+    padding: 0;
+    width: 450px;
+  }
 `;

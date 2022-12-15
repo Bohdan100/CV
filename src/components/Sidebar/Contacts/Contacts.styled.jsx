@@ -6,26 +6,34 @@ export const ContactsWrapper = styled.aside`
 `;
 
 export const ContactsTitle = styled.h3`
-  margin: 0;
   padding: 0;
+  margin-bottom: 20px;
   text-align: center;
 
   color: ${p => p.theme.colors.orange};
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 24px;
   line-height: 27px;
+
+  @media (min-width: 500px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const SocialNetworkList = styled.p`
-  margin-left: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
+  margin-bottom: 5px;
+
+  @media (min-width: 500px) {
+    margin-left: 40px;
+  }
 `;
 
 export const SocialNetworkLink = styled.a`
   display: inline-flex;
-  /* align-items: center; */
   justify-content: center;
   align-items: center;
 
@@ -53,8 +61,13 @@ export const ContactsList = styled.ul`
 
 export const ContactsListItem = styled.li`
   display: flex;
-  margin-left: 40px;
   align-items: baseline;
+  justify-content: center;
+  margin-bottom: 5px;
+
+  @media (min-width: 500px) {
+    margin-left: 40px;
+  }
 `;
 
 export const ContactsLink = styled.a`

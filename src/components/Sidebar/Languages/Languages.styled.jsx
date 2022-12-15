@@ -17,6 +17,7 @@ export const LanguagesList = styled.ul`
   color: ${p => p.theme.colors.white};
   padding: ${p => p.theme.space[0]};
   margin-left: 17px;
+  list-style: inside;
 `;
 
 export const LanguagesItem = styled.li`

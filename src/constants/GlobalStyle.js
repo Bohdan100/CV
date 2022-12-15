@@ -23,6 +23,11 @@ export const GlobalStyle = createGlobalStyle`
   ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+  }
+
+  img {
+    display: block;
+    padding: 0;
+    margin: 0;
   }
 `;
