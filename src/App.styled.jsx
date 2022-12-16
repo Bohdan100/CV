@@ -7,17 +7,9 @@ export const AppWrapper = styled.div`
   padding-left: 15px;
   padding-right: 15px;
 
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 0;
-  padding-right: 0; */
-  /* margin-left: 50px; */
-
   @media (min-width: 500px) {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: reverse;
     width: 500px;
   }
 
