@@ -50,7 +50,7 @@ export const UserDescription = styled.p`
   padding-left: 10px;
   padding-right: 10px;
 
-  @media (min-width: 500px) {
+  @media (min-width: 1200px) {
     padding: 0;
     width: 450px;
   }

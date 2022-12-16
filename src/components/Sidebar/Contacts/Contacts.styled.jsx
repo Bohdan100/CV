@@ -60,15 +60,11 @@ export const SocialNetworkList = styled.p`
   align-items: center;
   justify-content: center;
   gap: 10px;
+
+  margin-left: 5px;
   margin-bottom: 5px;
 
-  @media (min-width: 500px) {
-    display: block;
-    margin-left: 10px;
-  }
-
   @media (min-width: 760px) {
-    display: flex;
     margin-left: 40px;
   }
 `;

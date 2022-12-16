@@ -5,6 +5,10 @@ export const SidebarWrapper = styled.aside`
   background-color: #1e2939;
   padding: 20px 0;
 
+  @media (min-width: 500px) {
+    padding-top: 50px;
+  }
+
   @media (min-width: 768px) {
     padding-top: 50px;
     width: 400px;
@@ -20,12 +24,15 @@ export const UserPhoto = styled.img`
   margin-left: auto;
   margin-right: auto;
 
+  @media (min-width: 500px) {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-bottom: 30px;
+  }
+
   @media (min-width: 768px) {
     width: 250px;
     height: 240px;
-
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 30px;
   }
 `;
