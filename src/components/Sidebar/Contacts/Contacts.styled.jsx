@@ -64,7 +64,7 @@ export const SocialNetworkList = styled.p`
   margin-left: 5px;
   margin-bottom: 5px;
 
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     margin-left: 40px;
   }
 `;
@@ -94,22 +94,31 @@ export const ContactsList = styled.ul`
   margin: 0 0 40px;
   padding: 0;
   list-style: none;
+  text-align: center;
 `;
 
 export const ContactsListItem = styled.li`
   display: flex;
-  align-items: baseline;
-  justify-content: center;
   margin-bottom: 5px;
+  margin-left: 20px;
+  justify-content: center;
 
-  @media (min-width: 750px) {
-    margin-left: 40px;
+  @media (min-width: 500px) {
+    justify-content: start;
+  }
+
+  @media (min-width: 768px) {
+    margin-left: 60px;
+    text-align: left;
   }
 `;
 
 export const ContactsLink = styled.a`
   color: ${p => p.theme.colors.white};
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 `;
 
 export const EmailIcon = styled.span`

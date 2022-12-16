@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 import {
   TechSkillsWrapper,
   TechSkillsTitle,
@@ -15,7 +16,7 @@ export const TechSkills = () => {
       <TechSkillsTitle>Tech Skills</TechSkillsTitle>
       <TechSkillsList>
         {techSkills.map(skill => (
-          <TechSkillsItem>
+          <TechSkillsItem key={nanoid(5)}>
             <TechSkillsText>{skill}</TechSkillsText>
           </TechSkillsItem>
         ))}

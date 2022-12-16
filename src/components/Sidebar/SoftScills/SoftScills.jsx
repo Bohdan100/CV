@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 import {
   SoftScillsWrapper,
   SoftScillsTitle,
@@ -15,7 +16,7 @@ export const SoftScills = () => {
       <SoftScillsTitle>SoftScills</SoftScillsTitle>
       <SoftScillsList>
         {softSkills.map(skill => (
-          <SoftScillsItem>
+          <SoftScillsItem key={nanoid(5)}>
             <SoftScillsText>{skill}</SoftScillsText>
           </SoftScillsItem>
         ))}
