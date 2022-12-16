@@ -5,6 +5,41 @@ export const ContactsWrapper = styled.aside`
   margin-bottom: 40px;
 `;
 
+export const MobileUserPosition = styled.h3`
+  color: ${p => p.theme.colors.orange};
+  font-weight: ${p => p.theme.fontWeights.normal};
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  @media (min-width: 500px) {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+`;
+
+export const MobileUserName = styled.h3`
+  color: ${p => p.theme.colors.white};
+  font-weight: ${p => p.theme.fontWeights.normal};
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @media (min-width: 500px) {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+`;
+
 export const ContactsTitle = styled.h3`
   padding: 0;
   margin-bottom: 20px;

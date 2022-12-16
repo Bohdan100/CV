@@ -4,6 +4,8 @@ import { SiTelegram } from 'react-icons/si';
 import {
   ContactsWrapper,
   ContactsTitle,
+  MobileUserName,
+  MobileUserPosition,
   SocialNetworkList,
   SocialNetworkLink,
   SocialNetworkLinkText,
@@ -19,6 +21,9 @@ import {
 export const Contacts = () => {
   return (
     <ContactsWrapper>
+      <MobileUserPosition>Junior React Developer</MobileUserPosition>
+      <MobileUserName>Bohdan Orlovskyi</MobileUserName>
+
       <ContactsTitle>Contacts:</ContactsTitle>
 
       <SocialNetworkList>

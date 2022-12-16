@@ -5,26 +5,36 @@ export const UserWrapper = styled.div`
 `;
 
 export const UserPosition = styled.h2`
-  font-weight: ${p => p.theme.fontWeights.bold};
-  font-size: 40px;
-  line-height: 1.17;
-  color: ${p => p.theme.colors.orange};
-  margin-bottom: 20px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  opacity: 0;
 
-  @media (max-width: 500px) {
-    text-align: center;
+  @media (min-width: 500px) {
+    font-weight: ${p => p.theme.fontWeights.bold};
+    font-size: 40px;
+    line-height: 1.17;
+    color: ${p => p.theme.colors.orange};
+    margin-bottom: 20px;
   }
 `;
 
 export const UserName = styled.h1`
-  font-weight: ${p => p.theme.fontWeights.bold};
-  font-size: 45px;
-  line-height: 1.17;
-  color: ${p => p.theme.colors.black};
-  margin-bottom: 25px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 20px 0;
+  visibility: hidden;
+  opacity: 0;
 
-  @media (max-width: 500px) {
-    text-align: center;
+  @media (min-width: 500px) {
+    font-weight: ${p => p.theme.fontWeights.bold};
+    font-size: 45px;
+    line-height: 1.17;
+    color: ${p => p.theme.colors.black};
+    margin-bottom: 25px;
   }
 `;
 
