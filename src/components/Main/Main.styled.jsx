@@ -5,6 +5,10 @@ export const MainWrapper = styled.div`
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 
   @media (min-width: 500px) {
+    padding: 30px;
+  }
+
+  @media (min-width: 1200px) {
     padding: 50px 70px;
   }
 `;

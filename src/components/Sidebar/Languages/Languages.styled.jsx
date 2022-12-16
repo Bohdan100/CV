@@ -2,6 +2,14 @@ import styled from 'styled-components';
 
 export const LanguagesWrapper = styled.div`
   margin-left: 40px;
+
+  @media (min-width: 500px) {
+    margin-left: 30px;
+  }
+
+  @media (min-width: 768px) {
+    margin-left: 40px;
+  }
 `;
 
 export const LanguagesTitle = styled.h3`
@@ -17,7 +25,6 @@ export const LanguagesList = styled.ul`
   color: ${p => p.theme.colors.white};
   padding: ${p => p.theme.space[0]};
   margin-left: 17px;
-  list-style: inside;
 `;
 
 export const LanguagesItem = styled.li`

@@ -9,7 +9,6 @@ export const UserPosition = styled.h2`
   height: 0;
   margin: 0;
   padding: 0;
-  visibility: hidden;
   opacity: 0;
 
   @media (min-width: 500px) {
@@ -18,6 +17,9 @@ export const UserPosition = styled.h2`
     line-height: 1.17;
     color: ${p => p.theme.colors.orange};
     margin-bottom: 20px;
+    opacity: 1;
+    width: auto;
+    height: auto;
   }
 `;
 
@@ -25,8 +27,7 @@ export const UserName = styled.h1`
   width: 0;
   height: 0;
   margin: 0;
-  padding: 20px 0;
-  visibility: hidden;
+  padding: 0;
   opacity: 0;
 
   @media (min-width: 500px) {
@@ -35,6 +36,9 @@ export const UserName = styled.h1`
     line-height: 1.17;
     color: ${p => p.theme.colors.black};
     margin-bottom: 25px;
+    opacity: 1;
+    width: auto;
+    height: auto;
   }
 `;
 

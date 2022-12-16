@@ -10,7 +10,6 @@ export const AppWrapper = styled.div`
   @media (min-width: 500px) {
     display: flex;
     flex-direction: reverse;
-    width: 500px;
   }
 
   @media (min-width: 768px) {

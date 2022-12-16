@@ -9,7 +9,7 @@ export const MobileUserPosition = styled.h3`
   color: ${p => p.theme.colors.orange};
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 24px;
-  line-height: 27px;
+  line-height: ${p => p.theme.lineHeights.heading};
   text-align: center;
 
   @media (min-width: 500px) {
@@ -26,7 +26,7 @@ export const MobileUserName = styled.h3`
   color: ${p => p.theme.colors.white};
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 24px;
-  line-height: 27px;
+  line-height: ${p => p.theme.lineHeights.heading};
   text-align: center;
   margin-bottom: 20px;
 
@@ -63,6 +63,12 @@ export const SocialNetworkList = styled.p`
   margin-bottom: 5px;
 
   @media (min-width: 500px) {
+    display: block;
+    margin-left: 10px;
+  }
+
+  @media (min-width: 760px) {
+    display: flex;
     margin-left: 40px;
   }
 `;
@@ -100,7 +106,7 @@ export const ContactsListItem = styled.li`
   justify-content: center;
   margin-bottom: 5px;
 
-  @media (min-width: 500px) {
+  @media (min-width: 750px) {
     margin-left: 40px;
   }
 `;

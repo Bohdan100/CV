@@ -3,6 +3,14 @@ import styled from 'styled-components';
 export const TechSkillsWrapper = styled.aside`
   margin-left: 40px;
   margin-bottom: 45px;
+
+  @media (min-width: 500px) {
+    margin-left: 30px;
+  }
+
+  @media (min-width: 768px) {
+    margin-left: 40px;
+  }
 `;
 
 export const TechSkillsTitle = styled.h3`
@@ -18,7 +26,6 @@ export const TechSkillsList = styled.ul`
   color: ${p => p.theme.colors.white};
   padding: 0;
   margin-left: 17px;
-  list-style: inside;
 `;
 
 export const TechSkillsItem = styled.li`

@@ -5,7 +5,7 @@ export const SidebarWrapper = styled.aside`
   background-color: #1e2939;
   padding: 20px 0;
 
-  @media (min-width: 500px) {
+  @media (min-width: 768px) {
     padding-top: 50px;
     width: 400px;
   }
