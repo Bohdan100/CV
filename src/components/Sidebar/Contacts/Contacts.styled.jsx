@@ -69,7 +69,7 @@ export const SocialNetworkList = styled.p`
   }
 
   @media (min-width: 768px) {
-    margin-left: 60px;
+    margin-left: 40px;
   }
 `;
 
@@ -106,7 +106,7 @@ export const ContactsListItem = styled.li`
   }
 
   @media (min-width: 768px) {
-    margin-left: 60px;
+    margin-left: 40px;
     text-align: left;
   }
 `;
