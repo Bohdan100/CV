@@ -34,7 +34,7 @@ export const Contacts = () => {
       <SocialNetworkList>
         <SocialNetworkLinkText>My profiles:</SocialNetworkLinkText>
         <SocialNetworkLink
-          href="https://www.linkedin.com/in/bohdan-orlovskiy-6b503a240"
+          href="https://www.linkedin.com/in/bohdan-orlovskiy/"
           lang="en"
           rel="noopener noreferrer"
         >
