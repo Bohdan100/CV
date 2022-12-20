@@ -18,12 +18,11 @@ export const WorkExperience = () => {
         <Line> | </Line> Ukraine
       </WorkPeriod>
       <WorkList>
-        <WorkListItem>Website development from scratch.</WorkListItem>
+        <WorkListItem>Completion of sites components</WorkListItem>
         <WorkListItem>
-          Completion of sites and support of ready sites.
+          Website development: writing logic and making adaptive layout.
         </WorkListItem>
-        <WorkListItem>Landing sites to Wordpress.</WorkListItem>
-        <WorkListItem>Website testing.</WorkListItem>
+        <WorkListItem>Technical support of ready sites.</WorkListItem>
       </WorkList>
     </WorkWrapper>
   );

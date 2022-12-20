@@ -4,7 +4,7 @@ import {
   ProjectsList,
   ProjectsItem,
   ProjectLink,
-  ProjectBracket,
+  ProjectTechnology,
   ProjectDescription,
 } from './Projects.styled';
 
@@ -15,12 +15,11 @@ export const Projects = () => {
     <ProjectsWrapper>
       <ProjectsTitle>Projects</ProjectsTitle>
       <ProjectsList>
-        {projects.map(({ id, name, href, description }) => (
+        {projects.map(({ id, name, href, description, technology }) => (
           <ProjectsItem key={id}>
             <ProjectLink href={href}>{name}</ProjectLink>
-            <ProjectBracket>[</ProjectBracket>
             <ProjectDescription>{description} </ProjectDescription>
-            <ProjectBracket>]</ProjectBracket>
+            <ProjectTechnology>{technology}</ProjectTechnology>
           </ProjectsItem>
         ))}
       </ProjectsList>

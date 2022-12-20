@@ -1,7 +1,8 @@
 {
   "techSkills": [
-    "React, React Native",
+    "React, React Native(Expo)",
     "Redux, Redux Toolkit",
+    "RTK-Query",
     "React Router",
     "JavaScript",
     "Webpack, Git, GitHub",
