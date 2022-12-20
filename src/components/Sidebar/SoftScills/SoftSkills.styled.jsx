@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SoftScillsWrapper = styled.aside`
+export const SoftSkillsWrapper = styled.aside`
   margin-left: 40px;
   margin-bottom: 45px;
 
@@ -13,7 +13,7 @@ export const SoftScillsWrapper = styled.aside`
   }
 `;
 
-export const SoftScillsTitle = styled.h3`
+export const SoftSkillsTitle = styled.h3`
   color: ${p => p.theme.colors.white};
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 24px;
@@ -22,17 +22,17 @@ export const SoftScillsTitle = styled.h3`
   margin-bottom: 10px;
 `;
 
-export const SoftScillsList = styled.ul`
+export const SoftSkillsList = styled.ul`
   color: ${p => p.theme.colors.white};
   padding: 0;
   margin-left: 17px;
 `;
 
-export const SoftScillsItem = styled.li`
+export const SoftSkillsItem = styled.li`
   color: ${p => p.theme.colors.orange};
 `;
 
-export const SoftScillsText = styled.span`
+export const SoftSkillsText = styled.span`
   color: ${p => p.theme.colors.white};
   font-weight: ${p => p.theme.fontWeights.normal};
   font-size: 16px;

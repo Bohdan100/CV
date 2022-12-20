@@ -1,6 +1,6 @@
 import { Contacts } from './Contacts';
 import { TechSkills } from './TechSkills';
-import { SoftScills } from './SoftScills';
+import { SoftSkills } from './SoftSkills';
 import { Languages } from './Languages';
 
 import { SidebarWrapper, UserPhoto } from './Sidebar.styled';
@@ -12,7 +12,7 @@ export const Sidebar = () => {
       <UserPhoto src={UserImage} alt="user photo" />
       <Contacts />
       <TechSkills />
-      <SoftScills />
+      <SoftSkills />
       <Languages />
     </SidebarWrapper>
   );

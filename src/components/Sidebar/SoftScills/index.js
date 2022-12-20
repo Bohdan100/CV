@@ -1,1 +1,1 @@
-export * from './SoftScills';
+export * from './SoftSkills';
