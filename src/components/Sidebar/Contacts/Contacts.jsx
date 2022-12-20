@@ -1,5 +1,9 @@
 import { ImLinkedin, ImGithub } from 'react-icons/im';
-import { HiMailOpen, HiOutlinePhoneIncoming } from 'react-icons/hi';
+import {
+  HiMailOpen,
+  HiOutlinePhoneIncoming,
+  HiOutlineLocationMarker,
+} from 'react-icons/hi';
 import { SiTelegram } from 'react-icons/si';
 import {
   ContactsWrapper,
@@ -16,6 +20,7 @@ import {
   EmailIcon,
   TelIcon,
   ContactsText,
+  LocationText,
 } from './Contacts.styled';
 
 export const Contacts = () => {
@@ -70,6 +75,11 @@ export const Contacts = () => {
             </TelIcon>
             <ContactsText>+38 099 521 51 75</ContactsText>
           </ContactsLink>
+        </ContactsListItem>
+
+        <ContactsListItem>
+          <HiOutlineLocationMarker size={28} />{' '}
+          <LocationText> Odessa | Ukraine</LocationText>
         </ContactsListItem>
       </ContactsList>
     </ContactsWrapper>

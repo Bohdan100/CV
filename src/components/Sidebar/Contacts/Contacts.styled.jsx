@@ -58,30 +58,26 @@ export const ContactsTitle = styled.h3`
 export const SocialNetworkList = styled.p`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 10px;
 
-  margin-left: 5px;
+  margin-left: 40px;
   margin-bottom: 5px;
 
+  @media (min-width: 500px) {
+    margin-left: 20px;
+  }
+
   @media (min-width: 768px) {
-    margin-left: 40px;
+    margin-left: 60px;
   }
 `;
 
 export const SocialNetworkLink = styled.a`
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
   color: ${p => p.theme.colors.white};
   text-decoration: none;
   outline: none;
 `;
-
-// export const SocialNetworkIcon = styled.div`
-//   background-color: ${p => p.theme.fontWeights.normal};
-// `;
 
 export const SocialNetworkLinkText = styled.span`
   font-weight: ${p => p.theme.fontWeights.bold};
@@ -95,16 +91,18 @@ export const ContactsList = styled.ul`
   padding: 0;
   list-style: none;
   text-align: center;
+  color: ${p => p.theme.colors.white};
 `;
 
 export const ContactsListItem = styled.li`
   display: flex;
   margin-bottom: 5px;
-  margin-left: 20px;
-  justify-content: center;
+  margin-left: 40px;
+  justify-content: start;
+  align-items: center;
 
   @media (min-width: 500px) {
-    justify-content: start;
+    margin-left: 20px;
   }
 
   @media (min-width: 768px) {
@@ -135,4 +133,11 @@ export const ContactsText = styled.span`
 export const TelIcon = styled.span`
   margin-right: 10px;
   padding: 0;
+`;
+
+export const LocationText = styled.span`
+  margin-left: 5px;
+  font-weight: ${p => p.theme.fontWeights.normal};
+  font-size: 16px;
+  line-height: 1.17;
 `;
