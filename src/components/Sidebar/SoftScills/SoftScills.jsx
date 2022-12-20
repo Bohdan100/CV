@@ -13,7 +13,7 @@ export const SoftScills = () => {
   const softSkills = skills.softSkills;
   return (
     <SoftScillsWrapper>
-      <SoftScillsTitle>SoftScills</SoftScillsTitle>
+      <SoftScillsTitle>Soft Scills</SoftScillsTitle>
       <SoftScillsList>
         {softSkills.map(skill => (
           <SoftScillsItem key={nanoid(5)}>
