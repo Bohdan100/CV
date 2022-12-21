@@ -44,6 +44,18 @@ export const Line = styled.span`
   color: ${p => p.theme.colors.black};
 `;
 
+export const WorkText = styled.p`
+  margin-bottom: 5px;
+  font-weight: ${p => p.theme.fontWeights.bold};
+  font-size: 16px;
+  line-height: ${p => p.theme.lineHeights.heading};
+  color: ${p => p.theme.colors.black};
+
+  @media (max-width: 500px) {
+    padding-left: 20px;
+  }
+`;
+
 export const WorkList = styled.ul`
   @media (max-width: 500px) {
     padding-left: 20px;

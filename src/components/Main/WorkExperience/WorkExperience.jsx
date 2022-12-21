@@ -4,6 +4,7 @@ import {
   WorkPosition,
   WorkPeriod,
   Line,
+  WorkText,
   WorkList,
   WorkListItem,
 } from './WorkExperience.styled';
@@ -11,12 +12,13 @@ import {
 export const WorkExperience = () => {
   return (
     <WorkWrapper>
-      <WorkTitle>Work Experience</WorkTitle>
+      <WorkTitle>Work experience</WorkTitle>
       <WorkPosition>Developer in Freelance (Front-End)</WorkPosition>
       <WorkPeriod>
         August 2022 - up to now
         <Line> | </Line> Ukraine
       </WorkPeriod>
+      <WorkText>Responsibilities:</WorkText>
       <WorkList>
         <WorkListItem>Completion of sites components</WorkListItem>
         <WorkListItem>

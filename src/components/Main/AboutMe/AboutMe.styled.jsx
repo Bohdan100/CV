@@ -52,6 +52,6 @@ export const UserDescription = styled.p`
 
   @media (min-width: 1200px) {
     padding: 0;
-    width: 450px;
+    width: 480px;
   }
 `;

@@ -47,10 +47,6 @@ export const EducationPeriod = styled.p`
   margin-bottom: 10px;
 `;
 
-export const Line = styled.span`
-  margin-bottom: 10px;
-`;
-
 export const EducationList = styled.ul`
   @media (max-width: 500px) {
     padding-left: 20px;

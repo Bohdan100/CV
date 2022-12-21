@@ -12,10 +12,10 @@ export const Languages = () => {
       <LanguagesTitle>Languages</LanguagesTitle>
       <LanguagesList>
         <LanguagesItem>
-          <LanguagesText>English: Limited Working</LanguagesText>
+          <LanguagesText>English: Intermediate</LanguagesText>
         </LanguagesItem>
         <LanguagesItem>
-          <LanguagesText>Ukranian, Russian: Full Professional</LanguagesText>
+          <LanguagesText>Ukranian, Russian: Native</LanguagesText>
         </LanguagesItem>
       </LanguagesList>
     </LanguagesWrapper>

@@ -5,7 +5,6 @@ import {
   EducationOrganization,
   EducationPosition,
   EducationPeriod,
-  Line,
   EducationList,
   EducationListItem,
 } from './Education.styled';
@@ -13,7 +12,7 @@ import {
 export const Education = () => {
   return (
     <EducationWrapper>
-      <EducationTitle>IT Education</EducationTitle>
+      <EducationTitle>Education</EducationTitle>
       <div>
         <EducationSpecialization>
           Educational institution:
@@ -23,22 +22,21 @@ export const Education = () => {
           Specialization:
           <EducationPosition>Full-Stack Developer</EducationPosition>
         </EducationSpecialization>
-        <EducationPeriod>
-          April 2022 - December 2022
-          <Line> | </Line>
-          Ukraine
-        </EducationPeriod>
+        <EducationPeriod>April 2022 - December 2022</EducationPeriod>
         <EducationList>
           <EducationListItem>
-            Make individual and team projects with React.js, JavaScript, HTML5,
+            Make individual and team projects with React, JavaScript, HTML5,
             CSS3.
           </EducationListItem>
           <EducationListItem>
+            Make individual projects with React Native.
+          </EducationListItem>
+          <EducationListItem>
             Connected and used different libraries in React-projects, like:
-            React-Toolkit, RTK-Query, redux-persist, React-Router-DOM,
-            react-query, react-use, styled-components, emotion, styled-system,
-            formik, yup, react-avatar, react-icons, react-hot-toast,
-            react-spinners, shortid, nanoid and others.
+            Redux-Toolkit, RTK-Query, redux-persist, React Router, react-query,
+            react-use, styled-components, emotion, styled-system, formik, yup,
+            react-avatar, react-icons, react-hot-toast, react-spinners, shortid,
+            nanoid and others.
           </EducationListItem>
           <EducationListItem>
             Connected and used JS and CSS libraries in projects, like: Axios,
